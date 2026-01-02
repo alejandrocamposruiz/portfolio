@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Alejandro Campos Ruiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Arquitectura de integraciones, datos y backend para entornos donde el error técnico impacta directamente en negocio, operaciones y toma de decisiones.
 
-## Available Scripts
+Trabajo diseñando soluciones reales que conectan sistemas, datos y personas, priorizando trazabilidad, estabilidad y criterio técnico por sobre la complejidad innecesaria.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🧠 Enfoque de trabajo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Mi forma de trabajar se apoya en tres principios:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Integraciones trazables antes que rápidas**  
+  Prefiero flujos claros, monitoreables y auditables a soluciones opacas difíciles de sostener.
 
-### `npm test`
+- **Datos reutilizables antes que reportes aislados**  
+  Diseño estructuras pensadas para escalar análisis, no solo para resolver una consulta puntual.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Infraestructura simple antes que compleja**  
+  Automatizo y estandarizo solo lo necesario. La complejidad innecesaria siempre se paga después.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧩 Contextos en los que tengo experiencia
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Integraciones entre **ERP (SAP)** y plataformas externas (VTEX, Magento, servicios bancarios).
+- Sistemas con **alto volumen de datos** y dependencias cruzadas.
+- Flujos críticos donde una mala definición técnica impacta en operaciones, finanzas o reporting.
+- Entornos donde backend, datos e infraestructura deben pensarse como un todo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Stack técnico (curado)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Integraciones & Backend
+- APIs REST (Node.js)
+- SAP (iFlows, IDocs, APIs)
+- VTEX, Magento, servicios externos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Datos & Analítica
+- MySQL / PostgreSQL
+- Modelado para Power BI
+- DAX, Power Query (M), dataflows reutilizables
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Infraestructura & Automatización
+- Docker
+- Linux (Fedora)
+- Bash / Python scripting
+- Automatización y monitoreo de procesos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🧪 Sobre este portfolio
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Este portfolio fue construido en **React + Tailwind CSS** como una vitrina técnica simple y funcional.  
+El foco no está en el diseño visual, sino en **mostrar criterio, contexto y forma de pensar**.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+El código está ofuscado para entorno productivo.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ⚠️ Estado profesional actual
 
-### Analyzing the Bundle Size
+Actualmente trabajo en relación de dependencia.  
+Desarrollo proyectos propios en paralelo, sin conflicto de intereses ni superposición de responsabilidades.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Este espacio funciona como **respaldo técnico y profesional**, no como propuesta comercial abierta.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📬 Contacto
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- LinkedIn: https://linkedin.com/in/dalejandrocampos
+- Email: danielalejandro.camposr@gmail.com
