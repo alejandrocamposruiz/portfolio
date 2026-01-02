@@ -5,8 +5,6 @@ Arquitectura de integraciones, datos y backend para entornos donde el error téc
 
 Trabajo diseñando soluciones reales que conectan sistemas, datos y personas, priorizando trazabilidad, estabilidad y criterio técnico por sobre la complejidad innecesaria.
 
----
-
 ## 🧠 Enfoque de trabajo
 
 Mi forma de trabajar se apoya en tres principios:
@@ -20,16 +18,12 @@ Mi forma de trabajar se apoya en tres principios:
 - **Infraestructura simple antes que compleja**  
   Automatizo y estandarizo solo lo necesario. La complejidad innecesaria siempre se paga después.
 
----
-
 ## 🧩 Contextos en los que tengo experiencia
 
 - Integraciones entre **ERP (SAP)** y plataformas externas (VTEX, Magento, servicios bancarios).
 - Sistemas con **alto volumen de datos** y dependencias cruzadas.
 - Flujos críticos donde una mala definición técnica impacta en operaciones, finanzas o reporting.
 - Entornos donde backend, datos e infraestructura deben pensarse como un todo.
-
----
 
 ## ⚙️ Stack técnico (curado)
 
@@ -49,16 +43,12 @@ Mi forma de trabajar se apoya en tres principios:
 - Bash / Python scripting
 - Automatización y monitoreo de procesos
 
----
-
 ## 🧪 Sobre este portfolio
 
 Este portfolio fue construido en **React + Tailwind CSS** como una vitrina técnica simple y funcional.  
 El foco no está en el diseño visual, sino en **mostrar criterio, contexto y forma de pensar**.
 
 El código está ofuscado para entorno productivo.
-
----
 
 ## ⚠️ Estado profesional actual
 
@@ -74,8 +64,6 @@ Integration, data, and backend architecture for environments where technical err
 
 I design and build real-world solutions that connect systems, data, and people, prioritizing traceability, stability, and technical judgment over unnecessary complexity.
 
----
-
 ## 🧠 Working Approach
 
 My work is guided by three core principles:
@@ -89,16 +77,12 @@ My work is guided by three core principles:
 - **Simple infrastructure over complex setups**  
   I automate and standardize only what is necessary. Unnecessary complexity always has a long-term cost.
 
----
-
 ## 🧩 Contexts of Experience
 
 - Integrations between **ERP systems (SAP)** and external platforms (VTEX, Magento, banking services).
 - Systems handling **high data volume** and cross-system dependencies.
 - Critical data flows where poor technical decisions impact operations, finance, or reporting.
 - Environments where backend, data, and infrastructure must be designed as a unified system.
-
----
 
 ## ⚙️ Technical Stack (Curated)
 
@@ -118,16 +102,12 @@ My work is guided by three core principles:
 - Bash / Python scripting
 - Process automation and monitoring
 
----
-
 ## 🧪 About This Portfolio
 
 This portfolio was built using **React + Tailwind CSS** as a simple and functional technical showcase.  
 The focus is not on visual design, but on **technical judgment, context, and way of thinking**.
 
 Source code is obfuscated for production use.
-
----
 
 ## ⚠️ Current Professional Status
 
