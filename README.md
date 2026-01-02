@@ -1,4 +1,5 @@
 # Alejandro Campos Ruiz
+### [Spanish Ver]
 
 Arquitectura de integraciones, datos y backend para entornos donde el error técnico impacta directamente en negocio, operaciones y toma de decisiones.
 
@@ -67,8 +68,77 @@ Desarrollo proyectos propios en paralelo, sin conflicto de intereses ni superpos
 Este espacio funciona como **respaldo técnico y profesional**, no como propuesta comercial abierta.
 
 ---
+### [English Ver]
 
-## 📬 Contacto
+Integration, data, and backend architecture for environments where technical errors have a direct impact on business, operations, and decision-making.
+
+I design and build real-world solutions that connect systems, data, and people, prioritizing traceability, stability, and technical judgment over unnecessary complexity.
+
+---
+
+## 🧠 Working Approach
+
+My work is guided by three core principles:
+
+- **Traceable integrations over fast integrations**  
+  I prioritize clear, monitorable, and auditable flows over opaque solutions that are hard to maintain.
+
+- **Reusable data over isolated reports**  
+  I design data structures meant to scale analytical use cases, not just to answer a single question.
+
+- **Simple infrastructure over complex setups**  
+  I automate and standardize only what is necessary. Unnecessary complexity always has a long-term cost.
+
+---
+
+## 🧩 Contexts of Experience
+
+- Integrations between **ERP systems (SAP)** and external platforms (VTEX, Magento, banking services).
+- Systems handling **high data volume** and cross-system dependencies.
+- Critical data flows where poor technical decisions impact operations, finance, or reporting.
+- Environments where backend, data, and infrastructure must be designed as a unified system.
+
+---
+
+## ⚙️ Technical Stack (Curated)
+
+### Integrations & Backend
+- REST APIs (Node.js)
+- SAP (iFlows, IDocs, APIs)
+- VTEX, Magento, third-party services
+
+### Data & Analytics
+- MySQL / PostgreSQL
+- Data modeling for Power BI
+- DAX, Power Query (M), reusable dataflows
+
+### Infrastructure & Automation
+- Docker
+- Linux (Fedora)
+- Bash / Python scripting
+- Process automation and monitoring
+
+---
+
+## 🧪 About This Portfolio
+
+This portfolio was built using **React + Tailwind CSS** as a simple and functional technical showcase.  
+The focus is not on visual design, but on **technical judgment, context, and way of thinking**.
+
+Source code is obfuscated for production use.
+
+---
+
+## ⚠️ Current Professional Status
+
+I am currently employed in a full-time role.  
+I develop personal projects in parallel, with no conflict of interest or overlap of responsibilities.
+
+This space serves as a **technical and professional reference**, not as an open commercial offering.
+
+---
+
+## 📬 Contacts
 
 - LinkedIn: https://linkedin.com/in/dalejandrocampos
 - Email: danielalejandro.camposr@gmail.com
