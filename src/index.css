@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,6 +24,89 @@
     background-color: #0f172a;
     color: #f8fafc;
   }
+}
+
+/* =========================================================
+   SVEN VISUAL IDENTITY ISLAND (Strictly Scoped)
+   ========================================================= */
+.sven-case-study {
+  --sven-primary: #1F4D3A;
+  --sven-secondary: #3F7D5E;
+  --sven-accent: #D4A937;
+  --sven-bg: #F5F2EB;
+  --sven-surface: #FFFFFF;
+  --sven-text: #1A1A1A;
+  --sven-text-muted: rgba(26, 26, 26, 0.65);
+  --sven-text-dim: rgba(26, 26, 26, 0.40);
+  --sven-border: rgba(0, 0, 0, 0.08);
+
+  --sven-font-heading: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --sven-font-body: 'Manrope', system-ui, -apple-system, sans-serif;
+
+  background-color: var(--sven-bg);
+  color: var(--sven-text);
+  font-family: var(--sven-font-body);
+  border-color: var(--sven-border);
+}
+
+.sven-case-study h1,
+.sven-case-study h2,
+.sven-case-study h3,
+.sven-case-study h4,
+.sven-case-study .sven-heading {
+  font-family: var(--sven-font-heading);
+}
+
+.sven-case-study .sven-primary-bg {
+  background-color: var(--sven-primary);
+}
+
+.sven-case-study .sven-primary-text {
+  color: var(--sven-primary);
+}
+
+.sven-case-study .sven-secondary-bg {
+  background-color: var(--sven-secondary);
+}
+
+.sven-case-study .sven-secondary-text {
+  color: var(--sven-secondary);
+}
+
+.sven-case-study .sven-accent-text {
+  color: var(--sven-accent);
+}
+
+.sven-case-study .sven-accent-border {
+  border-color: var(--sven-accent);
+}
+
+.sven-case-study .sven-surface {
+  background-color: var(--sven-surface);
+  border-color: var(--sven-border);
+}
+
+.sven-case-study .sven-badge {
+  background-color: rgba(31, 77, 58, 0.08);
+  color: var(--sven-primary);
+  border: 1px solid rgba(31, 77, 58, 0.2);
+}
+
+.sven-case-study .sven-accent-badge {
+  background-color: rgba(212, 169, 55, 0.12);
+  color: #947118;
+  border: 1px solid rgba(212, 169, 55, 0.35);
+}
+
+.sven-case-study .sven-subcard {
+  background-color: var(--sven-surface);
+  border: 1px solid var(--sven-border);
+  transition: all 0.2s ease-in-out;
+}
+
+.sven-case-study .sven-subcard:hover {
+  border-color: rgba(31, 77, 58, 0.25);
+  box-shadow: 0 4px 12px rgba(31, 77, 58, 0.05);
 }
 
 @media (prefers-reduced-motion: reduce) {

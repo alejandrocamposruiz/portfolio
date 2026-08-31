@@ -1,11 +1,14 @@
 import React from "react";
 
 export default function StatusBadge({ status, label }) {
-  const normalized = (status || "").toUpperCase();
+  const text = label || status || "";
+  const normalized = text.toUpperCase();
 
   let styles = "bg-slate-100 text-slate-700 border-slate-300";
 
-  if (normalized.includes("IMPLEMENTED")) {
+  if (normalized.includes("CONFIDENTIAL")) {
+    styles = "bg-slate-900 text-slate-100 border-slate-700";
+  } else if (normalized.includes("IMPLEMENTED")) {
     styles = "bg-emerald-50 text-emerald-800 border-emerald-200";
   } else if (normalized.includes("DESIGNED") || normalized.includes("PROPOSED")) {
     styles = "bg-amber-50 text-amber-900 border-amber-200";
@@ -18,7 +21,7 @@ export default function StatusBadge({ status, label }) {
       className={`inline-flex items-center gap-1.5 font-mono text-[11px] font-semibold px-2.5 py-0.5 rounded border tracking-wide uppercase ${styles}`}
     >
       <span className="w-1.5 h-1.5 rounded-full bg-current opacity-75"></span>
-      {label || status}
+      {text}
     </span>
   );
 }
