@@ -134,44 +134,6 @@ export const caseStudiesData = {
         technologies: ["Python", "PostgreSQL", "SQL Avanzado", "ASP.NET", "React", "Power BI", "Docker"],
         learning:
           "En tecnología de Compliance, la consistencia de los datos y la trazabilidad de cada control son requisitos no negociables."
-      },
-      {
-        id: "student-portal",
-        indexNumber: "06",
-        name: "Plataforma de Autogestión Estudiantil",
-        tag: "Sistema Académico & PWA",
-        role: "Architecture & System Design",
-        status: "DESIGNED / PROPOSED",
-        statusLabel: "DESIGNED & PHASED ROADMAP",
-        summary:
-          "Propuesta de arquitectura y diseño de sistema para transformar un portal informativo en una plataforma web de autogestión académica.",
-        whatIDid: [
-          "Modelado relacional de datos para materias, cursadas y árboles de correlatividades académicas.",
-          "Diseño de arquitectura de servicios backend y endpoints para consulta y seguimiento del avance del estudiante.",
-          "Propuesta funcional de trámites digitales y buscador de aulas y cátedras.",
-          "Diseño de interfaz responsive y navegación contextual estructurada por roles."
-        ],
-        featureStatus: [
-          {
-            category: "DESIGNED / PROPOSED",
-            items: [
-              "Modelado de datos para grafos de correlatividades y avance académico.",
-              "Arquitectura de servicios REST para trámites digitales y panel de administración.",
-              "Diseño de experiencia de usuario y navegación adaptativa PWA."
-            ]
-          },
-          {
-            category: "PLANNED",
-            items: [
-              "Fase de implementación del motor de correlatividades.",
-              "Módulo de notificaciones segmentadas por cohorte y estado académico.",
-              "Tableros de analítica de cursadas y retención estudiantil."
-            ]
-          }
-        ],
-        technologies: ["React", "Node.js", "PostgreSQL", "Tailwind CSS", "REST API Design"],
-        learning:
-          "Un diseño exhaustivo del modelo de datos previo a la codificación previene cuellos de botella en sistemas con dependencias complejas como las correlatividades."
       }
     ]
   },
@@ -310,44 +272,6 @@ export const caseStudiesData = {
         technologies: ["Python", "PostgreSQL", "Advanced SQL", "ASP.NET", "React", "Power BI", "Docker"],
         learning:
           "In compliance technology, data consistency and immutable audit trails are fundamental non-negotiable requirements."
-      },
-      {
-        id: "student-portal",
-        indexNumber: "06",
-        name: "Student Self-Service Platform",
-        tag: "Academic System & PWA",
-        role: "Architecture & System Design",
-        status: "DESIGNED / PROPOSED",
-        statusLabel: "DESIGNED & PHASED ROADMAP",
-        summary:
-          "Architectural proposal and system design to transform an informative student portal into a comprehensive self-service academic web platform.",
-        whatIDid: [
-          "Modeled relational database schemas for courses, schedules, and academic prerequisite trees.",
-          "Designed service architecture and REST endpoints for tracking student academic progress.",
-          "Structured functional blueprints for digital procedure submissions and classroom/course directory search.",
-          "Created responsive interface layouts and role-based access workflows."
-        ],
-        featureStatus: [
-          {
-            category: "DESIGNED / PROPOSED",
-            items: [
-              "Domain data models for complex prerequisite graphs and degree tracking.",
-              "REST service architecture for digital student procedures and admin management.",
-              "User experience workflows and adaptive PWA layout design."
-            ]
-          },
-          {
-            category: "PLANNED",
-            items: [
-              "Implementation phase for the core prerequisite calculation engine.",
-              "Segmented communication module for cohort and academic status notifications.",
-              "Institutional analytics dashboards for course retention insights."
-            ]
-          }
-        ],
-        technologies: ["React", "Node.js", "PostgreSQL", "Tailwind CSS", "REST API Design"],
-        learning:
-          "Rigorous upfront data modeling prevents architectural bottlenecks when dealing with complex relational dependency graphs like academic prerequisites."
       }
     ]
   }

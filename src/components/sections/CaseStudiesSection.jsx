@@ -27,7 +27,7 @@ export default function CaseStudiesSection({ data, language }) {
               return <SvenCaseStudyCard key={cs.id} cs={cs} language={language} />;
             }
 
-            // General Standard Cases (02 to 06)
+            // General Standard Cases (02 to 05)
             return (
               <motion.article
                 key={cs.id}
@@ -117,34 +117,6 @@ export default function CaseStudiesSection({ data, language }) {
                                 </span>
                               ))}
                             </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  {/* Feature Status (Student Portal) */}
-                  {cs.featureStatus && (
-                    <div className="space-y-4 pt-2">
-                      <h4 className="text-xs font-mono font-bold uppercase tracking-wider text-slate-500">
-                        {language === "es" ? "Desglose de la Propuesta Técnica" : "Technical Proposal Breakdown"}
-                      </h4>
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {cs.featureStatus.map((cat, idx) => (
-                          <div
-                            key={idx}
-                            className="p-4 rounded-lg border border-slate-200 bg-slate-50 flex flex-col"
-                          >
-                            <div className="mb-3">
-                              <StatusBadge status={cat.category} />
-                            </div>
-                            <ul className="space-y-2 text-xs text-slate-700 leading-relaxed list-disc list-inside">
-                              {cat.items.map((item, itemIdx) => (
-                                <li key={itemIdx} className="text-slate-600">
-                                  <span className="text-slate-800">{item}</span>
-                                </li>
-                              ))}
-                            </ul>
                           </div>
                         ))}
                       </div>
