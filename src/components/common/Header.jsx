@@ -6,7 +6,8 @@ export default function Header({ language, setLanguage, navData }) {
 
   const links = [
     { href: "#about", label: navData.about },
-    { href: "#cases", label: navData.cases },
+    { href: "#sven", label: navData.sven },
+    { href: "#projects", label: navData.projects },
     { href: "#experience", label: navData.experience },
     { href: "#domains", label: navData.domains },
     { href: "#how-i-work", label: navData.howIWork },
@@ -23,7 +24,7 @@ export default function Header({ language, setLanguage, navData }) {
           <span className="hidden sm:inline font-bold text-sm">Alejandro Campos Ruiz</span>
         </a>
 
-        <nav className="hidden lg:flex items-center gap-6 text-xs font-medium text-slate-600">
+        <nav className="hidden lg:flex items-center gap-5 text-xs font-medium text-slate-600">
           {links.map((link) => (
             <a
               key={link.href}

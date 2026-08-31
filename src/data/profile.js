@@ -3,7 +3,7 @@ export const profileData = {
     name: "Alejandro Campos Ruiz",
     roleTitle: "Software Engineering · Systems Integration · Data · DevOps · Architecture",
     heroSubtitle:
-      "Diseño y construyo soluciones que conectan sistemas, datos y personas, desde la integración hasta la operación en producción.",
+      "Entender sistemas complejos, diseñar soluciones y llevarlas a producción.",
     statusBadge: "Enfoque en arquitectura, integración y sistemas en producción",
     contactLinks: {
       email: "danielalejandro.camposr@gmail.com",
@@ -12,9 +12,10 @@ export const profileData = {
     },
     nav: {
       about: "Perfil",
-      cases: "Casos de Estudio",
+      sven: "SVEN",
+      projects: "Proyectos",
       experience: "Trayectoria",
-      domains: "Dominios Técnicos",
+      domains: "Dominios",
       howIWork: "Cómo Trabajo",
       contact: "Contacto",
     },
@@ -22,9 +23,9 @@ export const profileData = {
       heading: "Intersección entre software, integración, datos e infraestructura",
       tagline: "Criterio de ingeniería orientado a sistemas reales y operación en producción.",
       paragraphs: [
-        "Mi trabajo se encuentra en el punto donde convergen el desarrollo de software, la integración de sistemas heterogéneos, la ingeniería de datos y la infraestructura.",
+        "Mi trabajo se encuentra en el punto donde convergen el desarrollo de software, la integración de sistemas, la ingeniería de datos y la infraestructura.",
         "No me interesa solamente que una pieza de código funcione en un entorno controlado. Me interesa entender por qué existe una solución, cómo debe comunicarse con el resto del ecosistema, cómo se mantiene a largo plazo y qué sucede cuando opera bajo carga real en producción.",
-        "Combino capacidad de ejecución técnica, diseño de arquitectura y comunicación transversal para traducir necesidades de negocio y requerimientos regulatorios en plataformas estables, monitoreables y escalables."
+        "Combino capacidad de ejecución técnica, criterio de diseño y comunicación transversal para traducir necesidades de negocio en sistemas estables, trazables y mantenibles."
       ],
       corePrinciples: [
         {
@@ -59,7 +60,7 @@ export const profileData = {
         },
         {
           title: "Coordinación técnica y traducción funcional",
-          description: "Articulo el diálogo entre ingeniería, equipos funcionales, negocio y áreas de cumplimiento normativo con lenguaje preciso."
+          description: "Articulo el diálogo entre ingeniería, equipos funcionales y áreas de negocio con lenguaje técnico preciso."
         },
         {
           title: "Entrega hasta producción ('End-to-End')",
@@ -78,14 +79,14 @@ export const profileData = {
     },
     footer: {
       rights: "Alejandro Campos Ruiz · Portfolio de Ingeniería",
-      builtWith: "Construido con React, Tailwind CSS y Framer Motion. Enfocado en sobriedad, rendimiento y arquitectura."
+      builtWith: "Construido con React y Tailwind CSS. Enfocado en sobriedad, rendimiento y arquitectura."
     }
   },
   en: {
     name: "Alejandro Campos Ruiz",
     roleTitle: "Software Engineering · Systems Integration · Data · DevOps · Architecture",
     heroSubtitle:
-      "I design and build solutions connecting systems, data, and people, from integration to production operations.",
+      "Understanding complex systems, designing solutions, and delivering them into production.",
     statusBadge: "Focus on architecture, integration, and production systems",
     contactLinks: {
       email: "danielalejandro.camposr@gmail.com",
@@ -94,9 +95,10 @@ export const profileData = {
     },
     nav: {
       about: "Profile",
-      cases: "Case Studies",
+      sven: "SVEN",
+      projects: "Projects",
       experience: "Experience",
-      domains: "Technical Domains",
+      domains: "Domains",
       howIWork: "How I Work",
       contact: "Contact",
     },
@@ -104,9 +106,9 @@ export const profileData = {
       heading: "At the intersection of software, integration, data, and infrastructure",
       tagline: "Engineering judgment focused on real-world systems and production operations.",
       paragraphs: [
-        "My work sits where software engineering, heterogeneous systems integration, data pipelines, and infrastructure converge.",
+        "My work sits where software engineering, systems integration, data engineering, and infrastructure converge.",
         "I am not merely interested in getting code to run in a test environment. I care about understanding why a system exists, how it must integrate with the broader ecosystem, how it is maintained, and what happens when it runs under production load.",
-        "I combine hands-on execution, architecture design, and cross-functional communication to translate business requirements and regulatory constraints into resilient, observable, and scalable platforms."
+        "I combine hands-on execution, system design judgment, and cross-functional communication to translate business requirements into resilient, observable, and maintainable platforms."
       ],
       corePrinciples: [
         {
@@ -141,7 +143,7 @@ export const profileData = {
         },
         {
           title: "Technical Coordination & Business Alignment",
-          description: "Bridging the gap between engineering, functional teams, product stakeholders, and compliance requirements with precise communication."
+          description: "Bridging the gap between engineering, functional teams, and business stakeholders with precise technical communication."
         },
         {
           title: "End-to-End Delivery into Production",
@@ -160,7 +162,7 @@ export const profileData = {
     },
     footer: {
       rights: "Alejandro Campos Ruiz · Engineering Portfolio",
-      builtWith: "Built with React, Tailwind CSS, and Framer Motion. Focused on clarity, performance, and architecture."
+      builtWith: "Built with React and Tailwind CSS. Focused on clarity, performance, and architecture."
     }
   }
 };

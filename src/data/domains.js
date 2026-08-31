@@ -8,40 +8,40 @@ export const domainsData = {
         id: "software-engineering",
         title: "Software Engineering & Backend",
         description:
-          "Diseño e implementación de servicios robustos, lógica de negocio y APIs escalables con foco en mantenibilidad y rendimiento.",
+          "Diseño e implementación de servicios backend, lógica de negocio y APIs con foco en mantenibilidad, validación y rendimiento.",
         capabilities: [
           "APIs RESTful y servicios desacoplados",
-          "Manejo avanzado de concurrencia y validaciones",
-          "Arquitecturas modulares y microservicios",
-          "Testing e integración continua"
+          "Manejo de reglas de negocio y validación de datos",
+          "Desarrollo backend en Node.js y Python",
+          "Estructuración de código limpio y mantenible"
         ],
-        technologies: ["Node.js", "Python", "ASP.NET / .NET Core", "React", "TypeScript / JavaScript"]
+        technologies: ["Node.js", "Python", "JavaScript", "REST APIs", "SQL"]
       },
       {
         id: "systems-integration",
         title: "Systems & Enterprise Integration",
         description:
-          "Interconexión de plataformas corporativas heterogéneas, middleware y traducción de datos transaccionales en tiempo real.",
+          "Interconexión de plataformas corporativas heterogéneas, middleware y traducción de datos transaccionales entre sistemas.",
         capabilities: [
           "Integraciones SAP S/4HANA (iFlows, IDocs, APIs)",
-          "Conexión con e-commerce (VTEX, Magento) y pasarelas",
-          "Webhooks, brokers y tolerancia a fallos",
-          "Trazabilidad de mensajes y políticas de reintento"
+          "Conexión con plataformas de e-commerce (VTEX, Magento)",
+          "Webhooks y protocolos de intercambio de información",
+          "Trazabilidad de mensajes y monitoreo de comunicación"
         ],
-        technologies: ["SAP Integration Suite", "SAP S/4HANA", "IDocs / RFC", "VTEX API", "REST / Webhooks"]
+        technologies: ["SAP S/4HANA", "IDocs / RFC", "VTEX APIs", "Magento", "REST / Webhooks"]
       },
       {
         id: "data-engineering",
-        title: "Data Engineering & Analytics",
+        title: "Data Engineering & Modelado",
         description:
-          "Modelado relacional, canalizaciones de datos (ETL/ELT) y estructuras preparadas para auditorías y analítica de alto nivel.",
+          "Modelado de datos relacionales y documentales, canalizaciones de datos y estructuras preparadas para trazabilidad y auditoría.",
         capabilities: [
-          "Esquemas relacionales normalizados y optimizados",
-          "Pipelines automatizados de ingesta y saneamiento",
-          "Modelado analítico y DAX/M para Power BI",
-          "Cálculo de métricas complejas e indicadores clave"
+          "Esquemas relacionales normalizados en PostgreSQL y MySQL",
+          "Persistencia con Supabase y Firebase Firestore",
+          "Pipelines automatizados de ingesta y consolidación",
+          "Consultas SQL complejas y optimización de datos"
         ],
-        technologies: ["PostgreSQL", "MySQL", "Advanced SQL", "Power BI", "Python (ETL)", "Data Modeling"]
+        technologies: ["PostgreSQL", "MySQL", "Supabase", "Firebase Firestore", "SQL Avanzado", "Python (ETL)"]
       },
       {
         id: "devops-infra",
@@ -49,38 +49,38 @@ export const domainsData = {
         description:
           "Aislamiento de entornos, reproducibilidad de despliegues y automatización operativa en Linux y contenedores.",
         capabilities: [
-          "Contenedorización consistente y composición de servicios",
-          "Administración de servidores y entornos Linux",
-          "Scripting para automatización de tareas y respaldos",
-          "Monitoreo de procesos y telemetría de fallos"
+          "Contenedorización consistente con Docker",
+          "Aprovisionamiento y administración de servidores Linux (DonWeb, entornos productivos)",
+          "Scripting para automatización de tareas y despliegues",
+          "Puesta en producción y configuración de variables operativas"
         ],
-        technologies: ["Docker", "Docker Compose", "Linux (Fedora, Ubuntu)", "Bash / Shell", "CI/CD Workflows"]
+        technologies: ["Docker", "Linux (Fedora, Ubuntu)", "Bash / Shell Scripting", "DonWeb Server Admin"]
       },
       {
         id: "system-architecture",
         title: "Architecture & System Design",
         description:
-          "Definición de fronteras de sistemas, contratos de interfaces, resiliencia y linaje de datos de extremo a extremo.",
+          "Definición de fronteras de sistemas, contratos de interfaces y diseño orientado a resiliencia y operación real.",
         capabilities: [
-          "Arquitectura de integración y patrones de desacoplamiento",
-          "Diseño de modelos de datos e interfaces consistentes",
-          "Observabilidad, auditoría e inmutabilidad",
-          "Evolución modular y mitigación de deuda técnica"
+          "Arquitectura de integración y desacoplamiento de componentes",
+          "Diseño de modelos de datos consistentes",
+          "Observabilidad y trazabilidad operativa",
+          "Diseño orientado al ciclo de vida en producción"
         ],
-        technologies: ["System Design", "Event-Driven Patterns", "API Contracts", "Audit Trails", "Clean Architecture"]
+        technologies: ["System Design", "API Contracts", "Decoupled Architecture", "Operational Traceability"]
       },
       {
         id: "compliance-tech",
-        title: "Compliance Technology & RegTech",
+        title: "Compliance Technology",
         description:
-          "Desarrollo especializado para detección de riesgos financieros, monitoreo transaccional y cumplimiento normativo.",
+          "Desarrollo especializado para monitoreo transaccional, automatización de controles y soporte a requerimientos regulatorios.",
         capabilities: [
-          "Monitoreo continuo de operaciones y detección de anomalías",
-          "Evaluación de reglas heurísticas (pitufeo, PEP, desvíos)",
-          "Automatización de reportes regulatorios (PDD/PDDR)",
-          "Paneles de resolución y trazabilidad de auditoría"
+          "Monitoreo continuo de operaciones y análisis transaccional",
+          "Automatización de reglas de control y alertas operativas",
+          "Generación de reportes e información para auditorías",
+          "Herramientas web para gestión de procesos de riesgo"
         ],
-        technologies: ["AML Rules Engines", "Heuristic Anomaly Detection", "Audit Lineage", "Regulatory Filing Tech"]
+        technologies: ["Transaction Monitoring", "Regulatory Automation", "Audit Trails", "Python", "PostgreSQL"]
       }
     ]
   },
@@ -93,40 +93,40 @@ export const domainsData = {
         id: "software-engineering",
         title: "Software Engineering & Backend",
         description:
-          "Architecting robust backend services, domain business logic, and scalable APIs with an emphasis on maintainability and performance.",
+          "Architecting robust backend services, domain business logic, and APIs with an emphasis on maintainability and performance.",
         capabilities: [
-          "RESTful APIs and decoupled service architectures",
-          "Advanced data validation and business rules",
-          "Modular services and clean layering",
-          "Automated testing and CI workflows"
+          "RESTful APIs and decoupled services",
+          "Business validation and domain logic handling",
+          "Backend development in Node.js and Python",
+          "Maintainable and modular code structures"
         ],
-        technologies: ["Node.js", "Python", "ASP.NET / .NET Core", "React", "TypeScript / JavaScript"]
+        technologies: ["Node.js", "Python", "JavaScript", "REST APIs", "SQL"]
       },
       {
         id: "systems-integration",
         title: "Systems & Enterprise Integration",
         description:
-          "Connecting heterogeneous enterprise platforms, middleware orchestration, and real-time cross-system transaction translation.",
+          "Connecting heterogeneous enterprise platforms, middleware orchestration, and cross-system transaction translation.",
         capabilities: [
           "SAP S/4HANA integrations (iFlows, IDocs, APIs)",
-          "E-commerce (VTEX, Magento) and payment gateway bridges",
-          "Webhooks, queues, and fault-tolerant ingestion",
-          "Message-level traceability and retry mechanisms"
+          "E-commerce connections (VTEX, Magento)",
+          "Webhooks and secure data exchange protocols",
+          "Message-level traceability and operational monitoring"
         ],
-        technologies: ["SAP Integration Suite", "SAP S/4HANA", "IDocs / RFC", "VTEX API", "REST / Webhooks"]
+        technologies: ["SAP S/4HANA", "IDocs / RFC", "VTEX APIs", "Magento", "REST / Webhooks"]
       },
       {
         id: "data-engineering",
-        title: "Data Engineering & Analytics",
+        title: "Data Engineering & Modeling",
         description:
-          "Relational schema modeling, automated ETL/ELT pipelines, and data architectures built for auditability and executive analytics.",
+          "Relational and document schema modeling, automated ETL pipelines, and data architectures built for auditability and stability.",
         capabilities: [
-          "Normalized, high-performance relational schemas",
+          "Normalized relational schemas in PostgreSQL and MySQL",
+          "Persistence layer design with Supabase and Firebase Firestore",
           "Automated ingestion, validation, and staging pipelines",
-          "Analytical data modeling and DAX/M in Power BI",
-          "Complex metric computation and KPI governance"
+          "Complex SQL query optimization and analytical structures"
         ],
-        technologies: ["PostgreSQL", "MySQL", "Advanced SQL", "Power BI", "Python (ETL)", "Data Modeling"]
+        technologies: ["PostgreSQL", "MySQL", "Supabase", "Firebase Firestore", "Advanced SQL", "Python (ETL)"]
       },
       {
         id: "devops-infra",
@@ -134,38 +134,38 @@ export const domainsData = {
         description:
           "Environment isolation, reproducible deployment workflows, and operational automation across Linux and container ecosystems.",
         capabilities: [
-          "Consistent containerization and service composition",
-          "Linux system administration and shell scripting",
-          "Automated operational tasks, cron jobs, and backups",
-          "Process monitoring, telemetry, and uptime observability"
+          "Consistent containerization with Docker",
+          "Linux server provisioning and administration (DonWeb, production servers)",
+          "Automated operational tasks, cron jobs, and shell scripting",
+          "Production deployment and environment configuration"
         ],
-        technologies: ["Docker", "Docker Compose", "Linux (Fedora, Ubuntu)", "Bash / Shell", "CI/CD Workflows"]
+        technologies: ["Docker", "Linux (Fedora, Ubuntu)", "Bash / Shell Scripting", "DonWeb Server Admin"]
       },
       {
         id: "system-architecture",
         title: "Architecture & System Design",
         description:
-          "Defining system boundaries, interface contracts, failure resilience, and end-to-end data lineage across production stacks.",
+          "Defining system boundaries, interface contracts, and resilient designs tailored for real-world production operations.",
         capabilities: [
           "Integration architecture and decoupling patterns",
           "Reliable schema and API contract specifications",
-          "Observability, auditable events, and data immutability",
-          "Modular evolution and proactive technical debt management"
+          "Operational observability and auditable execution",
+          "Production lifecycle and maintainability design"
         ],
-        technologies: ["System Design", "Event-Driven Patterns", "API Contracts", "Audit Trails", "Clean Architecture"]
+        technologies: ["System Design", "API Contracts", "Decoupled Architecture", "Operational Traceability"]
       },
       {
         id: "compliance-tech",
-        title: "Compliance Technology & RegTech",
+        title: "Compliance Technology",
         description:
-          "Specialized engineering for financial risk detection, automated transaction monitoring, and statutory regulatory filings.",
+          "Specialized engineering for transaction monitoring, automated risk checks, and statutory regulatory filings.",
         capabilities: [
-          "Continuous transaction monitoring and anomaly triage",
-          "Heuristic rule evaluation (structuring, PEP screening, velocity)",
-          "End-to-end automation of statutory filings (PDD/PDDR)",
-          "Auditable case resolution interfaces and evidence logging"
+          "Continuous transaction monitoring and heuristic data checks",
+          "Automated risk controls and operational alert dispatch",
+          "Audit-ready reporting and statutory metrics generation",
+          "Web tooling for risk and compliance case triage"
         ],
-        technologies: ["AML Rules Engines", "Heuristic Anomaly Detection", "Audit Lineage", "Regulatory Filing Tech"]
+        technologies: ["Transaction Monitoring", "Regulatory Automation", "Audit Trails", "Python", "PostgreSQL"]
       }
     ]
   }
